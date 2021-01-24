@@ -1,8 +1,19 @@
-# Zadatak Nsoft
+# Nsoft assignment
 
-Ovo je moje riješenje zadatka koji mi je dan.
-Za izradu zadatka sam koristio vue js framework.
-# Upute za izradu zadatka 
+This is my solution to the assignment that I was given.
+For development of this App I used vue js framework.
+
+#  How to run this example
+
+You need to have Node.js installed,then run this command in the terminal 
+
+ > npm install @vue/cli
+
+and then 
+ > npm run serve 
+
+ This starts local server and you can access it by going in to the browser and typing **//localhost:8080/** in the url
+# Instructions  
 
 Opis
 
@@ -58,7 +69,4 @@ Naslovi
 Slanje finalnog rješenja
 
 Molimo da rješenje objavite na netlify.com a source code na github.com.
-
-#  How to run this example
-
 
