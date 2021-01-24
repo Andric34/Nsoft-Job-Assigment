@@ -1,24 +1,64 @@
-# nsoft_zadatak_job_list_website
+# Zadatak Nsoft
 
-## Project setup
-```
-npm install
-```
+Ovo je moje riješenje zadatka koji mi je dan.
+Za izradu zadatka sam koristio vue js framework.
+# Upute za izradu zadatka 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Opis
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Vaš cilj je izraditi ovu stranicu s popisom poslova i učiniti je da izgleda što bliže dizajnu.
 
-### Lints and fixes files
-```
-npm run lint
-```
+Korisnici aplikacije bi trebali moći filtrirati popise poslova na temelju kategorija.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Koristite file data.json za povlačenje podataka (putem http request-a), a zatim dinamički dodajte sadržaj. 
+
+Da bi dodao filter, korisnik mora kliknuti na “tagove” (Frontend, Junior...) s desne strane popisa na desktop ili u dnu na mobitelu. Za svaki dodani filter trebaju se vratiti samo oglasi koji sadrže sve odabrane filtre.
+
+Zadatak treba biti urađen u React-u ili Vue-u.
+
+Dizajn
+
+Vaš je zadatak izraditi projekt prema nacrtima unutar foldera design. Tu ćete naći mobile i desktop verziju dizajna.
+Dizajn je u statičnom formatu, JPG. To će značiti da ćete trebati prosudit za stilove kao što su "font-size", "padding" i "margin".
+
+Sve potrebne assete ćete pronaći u folderu images.
+
+
+Responsivnost
+
+Dizajn je izrađen u sljedećim širinama:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+Boje
+
+Primarna
+
+- tamno crvena: hsl (180, 29%, 50%)
+
+Neutralne
+
+- Svijetlo sivkasto (pozadina): hsl (180, 52%, 96%)
+- Svijetlo sivkasto (tagovi): hsl (180, 31%, 95%)
+- Tamno sivkasta: hsl (180, 8%, 52%)
+- Izrazito tamno sivkasto: hsl (180, 14%, 20%)
+
+Tipografija
+
+Body Copy
+
+- Veličina fonta: 15 piksela
+
+Naslovi
+
+- Font family: [Spartan] (https://fonts.google.com/specimen/Spartan)
+- Weight: 500, 700
+
+Slanje finalnog rješenja
+
+Molimo da rješenje objavite na netlify.com a source code na github.com.
+
+#  How to run this example
+
+
